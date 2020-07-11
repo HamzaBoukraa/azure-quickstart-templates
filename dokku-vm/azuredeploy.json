@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
-  "contentVersion": "1.0.0.0",
+  "contentVersion": "1.1.0.0",
   "parameters": {
     "adminUsername": {
       "type": "string",
@@ -33,7 +33,7 @@
     },
     "dokkuVersion": {
       "type": "string",
-      "defaultValue": "0.10.3",
+      "defaultValue": "0.14.2",
       "metadata": {
         "description": "The Dokku version to launch"
       }
